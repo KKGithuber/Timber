@@ -27,6 +27,7 @@ import com.nostra13.universalimageloader.utils.L;
 import java.io.IOException;
 import java.io.InputStream;
 
+// MultiDexApplication 解决方法数量过多的而导致编译失败的问题
 public class TimberApp extends MultiDexApplication {
 
     private static TimberApp mInstance;
